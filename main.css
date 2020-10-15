@@ -1,0 +1,188 @@
+body {
+  font-family: 'Epilogue';
+  float: left;
+  padding: 0;
+  margin: 0;
+  /* background-color: rgb(255, 248, 212); */
+}
+
+::selection {
+  color: rgb(255, 255, 166);
+  background-color: rgb(34, 37, 82);
+}
+
+.footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(76, 76, 92);
+  padding: 1rem;
+}
+
+.footer p {
+  color: rgb(179, 171, 162);
+  line-height: 0;
+}
+
+h1 {
+  font-family: 'SecularOne';
+  font-size: 3rem;
+  color: rgb(31, 33, 56);
+  padding: 1rem;
+}
+
+h2 {
+  font-weight: bold;
+  color: rgb(242, 148, 34);
+  padding: 1rem;
+
+}
+
+h3 {
+  font-weight: bold;
+  color: rgb(97, 93, 88);
+  padding: 1rem;
+
+}
+
+h4 {
+  font-weight: bold;
+  color: rgb(179, 171, 162);
+  padding-left: 1em;
+}
+
+p {
+  /* max-width: 75%; */
+  padding-left: 1em;
+  color: rgb(19, 24, 36);
+  padding: 1rem;
+  line-height: 2em;
+}
+
+#font1 {
+  font-family: 'SecularOne';
+}
+
+#font2 {
+  font-family: 'Epilogue';
+}
+
+a {
+  padding: 1rem;
+  text-decoration: none;
+  font-weight: bold;
+  color: rgb(242, 86, 39);
+}
+
+a:hover {
+  color: rgb(255, 229, 36);
+  opacity: 0.5;
+  transition: color 0.75s, opacity 0.75s;
+}
+
+.nav {
+  border: none;
+  margin: 0;
+  padding: 0;
+  /* background-color: rgb(76, 76, 92); */
+  list-style-type: none;
+  overflow: hidden;
+}
+/*
+#nav li {
+  float: left;
+} */
+
+.nav {
+  background-color: rgb(76, 76, 92);
+
+}
+
+.nav a {
+  text-align: center;
+  padding: 1rem;
+  background-color: rgb(76, 76, 92);
+  transition: 0s;
+}
+
+.nav .active {
+  color: rgb(255, 229, 36);
+  background-color: rgb(190, 240, 125);
+}
+
+.nav a:hover {
+  background-color: rgb(190, 240, 125);
+  opacity: 1;
+}
+
+#product:hover {
+  box-shadow: 0 2px 4px 0 rgb(217, 217, 217);
+  transition: box-shadow 0.75s;
+}
+
+#product a {
+  display: block;
+}
+
+#product img {
+  width: 5em;
+}
+
+#logo img {
+  width: 7em;
+}
+
+button {
+  background-color: rgb(76, 76, 92);
+  font-weight: bold;
+  color: rgb(242, 86, 39);
+  text-decoration: none;
+  border: none;
+  padding: 1em;
+  margin-bottom: 1em;
+}
+
+button:hover {
+  background-color: rgb(190, 240, 125);
+  color: rgb(255, 229, 36);
+}
+
+ol {
+  font-family: 'SecularOne';
+  margin: 1em;
+  color: rgb(19, 24, 36);
+}
+
+form {
+  padding: 1rem;
+  line-height: 1em;
+}
+
+label {
+  padding: 1em;
+}
+
+input[type=text] {
+  width: 100%;
+  margin: 1em;
+}
+
+input[type=text]:focus, input[type=email]:focus {
+  background-color: rgb(201, 201, 201);
+  box-sizing: border-box;
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+  background-color: rgb(76, 76, 92);
+  font-weight: bold;
+  color: rgb(242, 86, 39);
+  text-decoration: none;
+  border: none;
+  padding: 1em;
+  margin-bottom: 1em;
+}
+
+input[type=button]:hover, input[type=submit]:hover, input[type=reset]:hover {
+  background-color: rgb(190, 240, 125);
+  color: rgb(255, 229, 36);
+}
