@@ -1,1 +1,11 @@
+#ignore MACOS files
 .DS_store
+
+#ignore all image files
+.jpg
+.jpeg
+.png
+.gif
+
+#ignore all font files
+.ttf
