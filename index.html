@@ -1,0 +1,230 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+
+  <title>Style Guide</title>
+
+  <script src="js/nav.js"></script>
+
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/fonts.css">
+  <link rel="stylesheet" href="css/grid.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+
+
+
+<body>
+  <div class="nav" id="topNav">
+    <a href="index.html" class="active">Home</a>
+    <a href="">Link 1</a>
+    <a href="">Link 2</a>
+    <a href="">Link 3</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+  <div class="container">
+    <div class="box">
+      <section id="text">
+        <h2>text elements</h2>
+        <h1>Heading 1</h1>
+        <h2>Heading 2</h2>
+        <h3>Heading 3</h3>
+        <h4>Heading 4</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+          incididunt ut labore et dolore magna aliqua. Massa tincidunt nunc pulvinar sapien et
+          ligula ullamcorper.
+          Enim lobortis scelerisque fermentum dui faucibus in. Odio pellentesque
+          diam volutpat commodo sed egestas. Pretium lectus quam id leo in vitae turpis
+          massa sed. Cras tincidunt lobortis feugiat vivamus. Mauris vitae ultricies leo
+          integer malesuada nunc vel risus. Eget velit aliquet sagittis id consectetur purus
+          ut faucibus. Volutpat blandit aliquam etiam erat velit scelerisque in dictum non.
+          Tincidunt arcu non sodales neque sodales ut. Mauris augue neque gravida in
+          fermentum et sollicitudin ac orci. Sagittis orci a scelerisque purus semper eget.</p>
+          <ol>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+          </ol>
+
+        </section>
+      </div>
+
+      <!-- interactive elements -->
+      <div class="box">
+        <section id="interactive">
+          <h2>interactive elements</h2>
+          <a href="index.html">this is a link</a>
+          <form>
+            <label for="null">this is a text input</label>
+            <input type="text"><br>
+            <input type="radio">
+            <label for="null">this is a radio selection</label><br>
+            <input type="submit" value="Submit"><br>
+            <input type="reset">
+          </form>
+          <!-- placeholder image from https://mspaintadventures.fandom.com/wiki/Food_and_beverage#Fruit -->
+          <a href="index.html"><img src="img/Fruits.gif"></a>
+        </section>
+      </div>
+
+      <!-- combined elements -->
+
+      <div class="box">
+        <section id="combined">
+          <h2>combined elements</h2>
+
+
+
+          <h3>Product Listing</h3>
+
+          <section id="product-container">
+            <section id="product">
+              <a href="">Product Name
+                <img src="img/kraken.png">
+                <p>$5</p>
+              </a>
+              <button>Add to Cart</button>
+
+            </section>
+          </section>
+
+          <section id="payment">
+            <h3>Payment</h3>
+            <!-- payment form tutorial from https://www.w3schools.com/howto/howto_css_checkout_form.asp-->
+
+            <form action="/action_page.php">
+
+            <label for="fname">Full Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="John Doe"><br>
+            <label for="email">Email</label>
+            <input type="text" id="email" name="email" placeholder="name@example.com"><br>
+            <label for="adr">Address</label>
+            <input type="text" id="adr" name="address" placeholder="123 Example Ave"><br>
+            <label for="country">Country</label>
+            <input type="text" id="country" name="country"><br>
+            <label for="city">City</label>
+            <input type="text" id="city" name="city"><br>
+            <label for="state">State/Province</label>
+            <input type="text" id="state" name="state"><br>
+            <label for="zip">Postal Code</label>
+            <input type="text" id="zip" name="zip">
+
+            <input type="submit" value="Continue to checkout">
+          </section>
+
+          <section id="checkout">
+            <h3>Checkout</h3>
+            <h4>Here are the items in your cart:</h4>
+            <section id="product-container">
+              <section id="product">
+                <a href="">Product Name
+                  <img src="img/kraken.png">
+                  <p>$5</p>
+                </a>
+              </section>
+              <section id="product">
+                <a href="">Product Name
+                  <img src="img/kraken.png">
+                  <p>$6</p>
+                </a>
+              </section>
+            </section>
+            <h4>Total cost: $11<h4>
+
+            </section>
+          </section>
+        </div>
+
+
+        <div class="box">
+
+            <h2>Colour Palette</h2>
+            <h4>main colours</h4>
+            <svg height="100" width="100">
+              <circle cx="50" cy="50" r="40" fill="rgb(31, 33, 56)"/>
+            </svg>
+            <svg height="100" width="100">
+              <circle cx="50" cy="50" r="40" fill="rgb(19, 24, 36)"/>
+            </svg>
+            <svg height="100" width="100">
+              <circle cx="50" cy="50" r="40" fill="rgb(242, 148, 34)"/>
+            </svg>
+            <svg height="100" width="100">
+              <circle cx="50" cy="50" r="40" fill="rgb(242, 86, 39)"/>
+            </svg>
+
+            <h4>secondary colours</h4>
+            <svg height="100" width="100">
+              <circle cx="50" cy="50" r="40" fill="rgb(255, 229, 36)"/>
+            </svg>
+            <svg height="100" width="100">
+              <circle cx="50" cy="50" r="40" fill="rgb(190, 240, 125)"/>
+            </svg>
+            <svg height="100" width="100">
+              <circle cx="50" cy="50" r="40" fill="rgb(97, 93, 88)"/>
+            </svg>
+            <svg height="100" width="100">
+              <circle cx="50" cy="50" r="40" fill="rgb(179, 171, 162)"/>
+            </svg>
+
+            </div>
+
+            <div class="box">
+            <h2>Fonts</h2>
+            <!-- fonts taken from Google Fonts -->
+            <section id="font1">
+              <h1>Secular One</h1>
+              <h2>Secular One</h2>
+              <h3>Secular One</h3>
+              <h4>Secular One</h4>
+              <p>Secular One</p>
+              <p><em>Secular One</em></p>
+              <p><b>Secular One</b></p>
+            </section>
+
+            <section id="font2">
+              <h1>Epilogue</h1>
+              <h2>Epilogue</h2>
+              <h3>Epilogue</h3>
+              <h4>Epilogue</h4>
+              <p>Epilogue</p>
+              <p><em>Epilogue</em></p>
+              <p><b>Epilogue</b></p>
+
+            </section>
+            </div>
+
+            <div class="box">
+              <h2>Image Preference</h2>
+              <section id="logo">
+                <img src="img/cthlulu.png">
+                <img src="img/kraken.png">
+                <p>imagery should be simple, vector-based, colour blocked</p>
+
+              </section>
+            </div>
+
+            <div class="box">
+              <h2>Resources</h2>
+
+              <p>
+                Food and beverage. (n.d.). Retrieved October 08, 2020, from https://mspaintadventures.fandom.com/wiki/Food_and_beverage
+                <br>How TO - Checkout Form. (n.d.). Retrieved October 08, 2020, from https://www.w3schools.com/howto/howto_css_checkout_form.asp
+                <br>Google Fonts. (n.d.). Retrieved October 08, 2020, from https://fonts.google.com/
+
+              </p>
+
+
+
+            </div>
+
+  </div>
+</body>
+
+</html>
