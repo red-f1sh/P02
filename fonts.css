@@ -1,0 +1,27 @@
+@font-face {
+  font-family: 'Epilogue';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../fonts/Epilogue/static/Epilogue-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Epilogue';
+  font-weight: bold;
+  font-style: normal;
+  src: url('../fonts/Epilogue/static/Epilogue-Bold.ttf');
+}
+
+@font-face {
+  font-family: 'Epilogue';
+  font-weight: normal;
+  font-style: italic;
+  src: url('../fonts/Epilogue/static/Epilogue-Italic.ttf');
+}
+
+@font-face {
+  font-family: 'SecularOne';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../fonts/Secular_One/SecularOne-Regular.ttf');
+}
