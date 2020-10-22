@@ -93,6 +93,10 @@
     display: none;
   }
 
+  .nav a {
+    display: block;
+  }
+
 }
 
 @media (min-width: 56.25em) {
