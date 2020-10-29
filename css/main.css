@@ -65,7 +65,7 @@ a {
 }
 
 a:hover {
-  color: rgb(255, 229, 36);
+  color: rgb(19, 24, 36);
   opacity: 0.5;
   transition: color 0.75s, opacity 0.75s;
 }
@@ -119,7 +119,7 @@ a:hover {
 }
 
 .nav .active {
-  color: rgb(255, 229, 36);
+  color: rgb(19, 24, 36);
   background-color: rgb(190, 240, 125);
 }
 
@@ -151,6 +151,7 @@ a:hover {
 
 img {
   padding: 1em;
+  width: 60%;
 }
 
 .promo img {
@@ -174,7 +175,7 @@ button {
 
 button:hover {
   background-color: rgb(190, 240, 125);
-  color: rgb(255, 229, 36);
+  color: rgb(19, 24, 36);
 }
 
 ol {
@@ -214,5 +215,5 @@ input[type=button], input[type=submit], input[type=reset] {
 
 input[type=button]:hover, input[type=submit]:hover, input[type=reset]:hover {
   background-color: rgb(190, 240, 125);
-  color: rgb(255, 229, 36);
+  color: rgb(19, 24, 36);
 }
