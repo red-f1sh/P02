@@ -46,11 +46,11 @@
 @media (min-width: 23.5em) {
   .container {
     margin-top: 5em;
+    flex-direction: column;
   }
 
   .container .box {
     flex-basis: 50%;
-    flex-direction: column;
   }
 
   .nav a {
@@ -83,18 +83,35 @@
 
   .container {
     margin-top: 5em;
+    flex-direction: column;
   }
 
   .container .box {
     flex-basis: 33.333%;
   }
 
-  .nav a.icon {
+  .nav a {
     display: none;
   }
 
-  .nav a {
+  .nav a.icon {
+    float: right;
     display: block;
+  }
+
+  .nav.responsive {
+    position: relative;
+  }
+
+  .nav.responsive a.icon {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+
+  .nav.responsive a {
+    display: block;
+    float: none;
   }
 
 }
@@ -103,6 +120,7 @@
 
   .container {
     margin-top: 5em;
+    flex-direction: row;
   }
 
   .container .box {
