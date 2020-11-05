@@ -43,7 +43,7 @@
   flex-basis: 100%; */
 }
 
-@media (min-width: 23.5em) {
+@media only screen and (max-width: 600px) {
   .container {
     margin-top: 5em;
     flex-direction: column;
@@ -77,9 +77,13 @@
     float: none;
   }
 
+  input[type=text] {
+    padding: 1em;
+  }
+
 }
 
-@media (min-width: 45em) {
+@media only screen and (min-width: 600px) {
 
   .container {
     margin-top: 5em;
@@ -114,9 +118,13 @@
     float: none;
   }
 
+  input[type=text] {
+    padding: 1em;
+  }
+
 }
 
-@media (min-width: 56.25em) {
+@media only screen and (min-width: 992px) {
 
   .container {
     margin-top: 5em;
